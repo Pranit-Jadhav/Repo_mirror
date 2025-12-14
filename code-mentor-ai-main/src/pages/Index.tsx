@@ -185,7 +185,7 @@ const Index = () => {
 
   useEffect(() => {
     if (state === "loading") {
-      fetch("http://localhost:3000/api/analyze", {
+      fetch(`${import.meta.env.VITE_BACKEND_URL}/api/analyze`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ githubLink: repoUrl }),
