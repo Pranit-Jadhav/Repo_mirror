@@ -1,6 +1,4 @@
-// server.js - API-ONLY VERSION
 
-// 1. Setup Environment and Dependencies
 require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
