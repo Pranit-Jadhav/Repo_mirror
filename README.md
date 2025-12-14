@@ -30,6 +30,9 @@ The system operates in three distinct phases, designed to maximize efficiency an
 2.  **Analyze (Node.js Logic):** The system processes the API data. It calculates derived metrics like Commit Consistency, analyzes the `README.md` content, and runs a **simulated complexity analysis** on a sample of code files (fetched via Contents API).
 3.  **Generate (Gemini LLM):** All raw metrics, along with the analyzed `README` text, are passed into a structured prompt. The Gemini LLM interprets these inputs and returns the final `Score`, `Summary`, and `Roadmap` in a strict JSON format.
 
+---
+
+### Video URL - https://drive.google.com/drive/folders/1UVhRTW11GmP07MBYmlcNZhU29M7lwmoy?usp=sharing
 
 
 ## 🚀 Getting Started
